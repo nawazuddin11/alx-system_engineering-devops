@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir my_dir | chmod 751 0x01-shell_permissions
+mkdir my_dir |sudo  chmod 751 -R 0x01-shell_permissions
