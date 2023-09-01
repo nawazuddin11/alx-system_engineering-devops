@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod 664 olleh
+sudo chmod 354 olleh
