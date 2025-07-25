@@ -1,5 +1,2 @@
 #!/bin/bash
-# Add execute permission to all subdirectories (not regular files)
-
-find . -type d -exec chmod a+x {} \;
-
+chmod ugo+X ./*
