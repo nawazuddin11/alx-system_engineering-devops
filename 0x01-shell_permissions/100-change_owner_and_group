@@ -1,5 +1,2 @@
 #!/bin/bash
-# Change owner and group of all files and directories in the current directory
-
-chown vincent:staff *
-
+sudo chown betty:holberton *

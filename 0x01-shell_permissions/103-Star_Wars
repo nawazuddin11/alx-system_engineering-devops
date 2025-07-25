@@ -1,5 +1,2 @@
 #!/bin/bash
-# Script to play Star Wars Episode IV in ASCII via Telnet
-
 telnet towel.blinkenlights.nl
-
