@@ -1,0 +1,5 @@
+#!/bin/bash
+# Change ownership of 'hello' to 'betty' only if current owner is 'guillaume'
+
+[ "$(stat -c %U hello 2>/dev/null)" = "guillaume" ] && chown betty hello
+

@@ -1,2 +1,5 @@
 #!/bin/bash
-sudo chmod 751 -R 11-directories_permissions
+# Add execute permission to all subdirectories (not regular files)
+
+find . -type d -exec chmod a+x {} \;
+

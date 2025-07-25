@@ -1,0 +1,5 @@
+#!/bin/bash
+# Change owner and group of symbolic link _hello to vincent and staff
+
+chown -h vincent:staff _hello
+
